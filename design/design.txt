@@ -1,0 +1,43 @@
+Alex Du TP Design
+
+~~~PROBLEM AND APPROACH~~~
+
+The problem I faced in creating this term project
+was creating a game based off of a similar flash game
+found here: http://armorgames.com/play/666/smo-arena-fighter
+The way I approached this is by extracting basic elements 
+from the game and adding them to my code incrementally. I 
+started with only the platform and movement of the two 
+players. I proceeded to add more features starting with
+basic ones such as weapons and default map settings. I then
+added more advanced features such as the map scroll and map
+and character customization. 
+
+In my code, I chose to make object that was a sprite moving
+around the map or any menu to be a separate object. Besides 
+that, I had most of my game and menu navigation logic in my
+main game class. Based on whatever user input was created by 
+the user, I would make changes in the instances of the classes. 
+Even though much of my code was repetitive in structure,
+I had to make separate functions because the code still
+depended on what state of the game I was in. I had one function
+that was placed out of a class because I used it in enough 
+different classes to the point where I thought it would be 
+inefficient to rewrite that function. 
+
+
+~~~USER INTERFACE DESIGN~~~
+
+I design the user interface closely to the UI used in the
+original game. I changed the original game’s double menu
+to a single menu. From that main menu I chose to have all of
+the different states of the game branch off from the main menu
+and be able to directly access that main menu from any point in
+the game. Designing the game in general, I wanted to create a UI
+which was simple in design and functionality, but elegant in
+usage. One thing I implemented was the responsive buttons that 
+change text size. In addition, for the entire game, I decided
+to use color tones that were all neutral grays or whites. During 
+actual gameplay, the mutual colors of all of the setup contrasts
+with the blob colors if the users change them, which allows the
+user to focus more on the gameplay. 

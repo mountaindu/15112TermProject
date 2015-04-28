@@ -1,0 +1,9 @@
+Updates
+
+Added basic starting menu with interactive buttons.
+Made game into two players with separate controls.
+Added guns and gun spawn when hit box. 
+Added in-game menu status that reflects current gun and ammo capacity.
+Created respawn system and scoring. 
+Made edits to movement and more acceleration/deacceleration. 
+Spawn of player and boxes are randomly spawned over platforms
